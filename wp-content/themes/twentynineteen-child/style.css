@@ -1,0 +1,99 @@
+/*
+Theme Name: Twenty Nineteen Child
+Description: Twenty Nineteen Child Theme
+Author: Valerie Eskens
+Author URL: http://valerieeskens.be
+Template: twentynineteen
+Version: 1.0.0
+Text Domain: twentyninenteen-child
+*/
+
+/* GENERAL */
+body {
+    font-family: "Open sans";
+    font-size: 16px;
+}
+
+/* HEADER */
+#masthead {
+    padding: 1rem 0;
+}
+
+.social-navigation {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.site-logo {
+    width: 150px;
+    left: -150px;
+    right: auto;
+}
+
+body.page .main-navigation {
+    padding: 30px;
+    text-align: center;
+}
+
+.main-navigation .main-menu > li > a {
+    font-weight: 400;
+    color: #888;
+    margin-right: 2rem;
+}
+
+.main-navigation .main-menu > li > a:hover,
+.main-navigation .main-menu > li > a:hover + svg,
+.main-navigation .main-menu > li.current-menu-item > a {
+    color: #f19e00;
+}
+
+.wide-img {
+    margin: 0 !important;
+}
+
+#masthead {
+    background-image: url(http://www.letterenentetteren.be/wp-content/uploads/2018/12/paper-fafafa.jpg);
+    background-size: contain;
+    position: relative;
+    z-index: 10;
+    padding: 5px 0;
+}
+
+#masthead:after {
+    content: '';
+    background-image: url(http://www.letterenentetteren.be/wp-content/uploads/2018/12/ripped-fafafa.png);
+    width: 100%;
+    height: 20px;
+    background-size: contain;
+    position: absolute;
+    bottom: -18px;
+    display: block;
+}
+
+/* OVER ONS */ 
+.cols-margin .wp-block-column {
+    margin: 2%;
+}
+
+.col-img {
+    margin: 20%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+body.page .entry .entry-content > *, .entry .entry-summary > * {max-width: none;}
+
+
+
+
+
+
+
+.lt-page-title {
+    max-width: 80%;
+    margin: 0 10%;
+    padding: 0 60px;
+}
